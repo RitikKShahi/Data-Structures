@@ -9,7 +9,7 @@ void setter(){
   for(int i=2;i<n;i++){
       if(isPrime[i]){
         hp[i]=i;
-      for(int j=2*i;j<n;j++){
+      for(int j=2*i;j<n;j+=i){
           isPrime[j]=false;
           hp[j]=i;
       }
