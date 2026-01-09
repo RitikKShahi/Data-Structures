@@ -17,3 +17,5 @@
             }
         }
 */
+
+//TO CHECK if a negative cycle exists run the loop for the nth time and check if the distance vector changes or NOT !!!
